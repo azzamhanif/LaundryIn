@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@android:color/white">
+
+    <ImageView
+        android:id="@+id/panahAtas"
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:src="@drawable/arrow"
+        android:visibility="gone"
+        android:layout_marginBottom="5dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp">
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginBottom="5dp"
+            android:src="@drawable/circle3"/>
+
+        <TextView
+            android:id="@+id/status"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Status here"
+            android:textSize="18sp"
+            android:layout_marginLeft="20dp"
+            android:textStyle="bold"
+            android:layout_gravity="center_vertical"
+            android:textColor="@color/colorPrimary"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/panahBawah"
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:src="@drawable/arrow"
+            android:layout_marginBottom="5dp"/>
+
+        <TextView
+            android:id="@+id/deskripsi"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Deskipsi here"
+            android:textSize="17sp"
+            android:layout_marginLeft="13dp"
+            android:textColor="#82c3fc"
+            android:layout_marginBottom="5dp"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

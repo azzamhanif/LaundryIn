@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "342037778990",
+    "firebase_url": "https://laundryin-5a86f.firebaseio.com",
+    "project_id": "laundryin-5a86f",
+    "storage_bucket": "laundryin-5a86f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:342037778990:android:567ccd68419478ecde05bf",
+        "android_client_info": {
+          "package_name": "com.example.azzam.laundryin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "342037778990-tq9odlorp6g83brk8oq1nrmlnff8h8c1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.azzam.laundryin",
+            "certificate_hash": "156da5e123db3cbc7c521eb4ffd9485185a265b3"
+          }
+        },
+        {
+          "client_id": "342037778990-9fi2kf2omi920kn8jp28c75acfbofnsf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCX-C_emU4J7Vuqp8bqOhZsCsWyIplMWrI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "342037778990-9fi2kf2omi920kn8jp28c75acfbofnsf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
